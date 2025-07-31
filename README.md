@@ -2,12 +2,12 @@ DS3231 RTC digital clock for AVR atmega328p (Uno)
 =========
 
 Rust project for the Arduino Uno that shows time and date on the serial console.
-A DS3231 RTC chip (Analog devices) is connected via i2c to the Uno.
+A DS3231 RTC chip (Analog Devices) is connected via i2c to the Uno.
 
 ## Libraries used
-1. [DS3231-rs]: https://github.com/eldruin/ds323x-rs
+1. [DS3231-rs](https://github.com/liebman/ds3231-rs) as embedded-hal based DS3231 driver.
 
-2. [avr-hal]: https://github.com/Rahix/avr-hal
+2. [avr-hal](https://github.com/Rahix/avr-hal) as AVR MCU hardware abstraction layer.
 
 ## Build Instructions
 1. Install prerequisites as described in the [`avr-hal` README] (`avr-gcc`, `avr-libc`, `avrdude`, [`ravedude`]).
